@@ -199,3 +199,7 @@ The final assembled Markdown document has 7 sections:
 - **Per-book output directories**: every source document gets its own `output\{name}\` subfolder.
 - **Fault-tolerant**: `retry_with_fallback` wraps every LLM call with exponential backoff.
 - **WORKLOAD dict**: single shared state object serialized to `workload_v2.json` after each stage; re-running Stage 7 alone regenerates the document without repeating any LLM calls.
+
+---
+
+© 2026 Brock Frary. All rights reserved.
