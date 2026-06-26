@@ -1,0 +1,37 @@
+# secrets
+.env
+
+# virtual environment
+.venv/
+
+# python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# build instructions for Claude Code (not for public consumption)
+CLAUDE.md
+
+# auto-generated trace logs
+**/*.json
+
+# per-book intermediate working directories
+logs/holding/
+logs/input_book/
+output/holding/
+output/input_book/
+
+# user-supplied source documents (add your own; do not commit)
+input/*.pdf
+input/*.md
+input/holding/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# claude code local settings
+.claude/
+
+# os files
+.DS_Store
+Thumbs.db
