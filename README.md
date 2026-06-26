@@ -1,4 +1,8 @@
 # Agentic Book Explainer
+Directed by Brock Frary using Claude Code
+Published:  2026-06-26 | Updated: 2026-06-26
+
+---
 
 A Jupyter notebook that demonstrates multi-agent AI workflows using
 **CrewAI** and **LangGraph** side by side. Drop in any PDF book and the system
