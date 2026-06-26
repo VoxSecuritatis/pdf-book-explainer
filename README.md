@@ -1,6 +1,6 @@
 # Agentic Book Explainer
 
-A portfolio-ready Jupyter notebook that demonstrates multi-agent AI workflows using
+A Jupyter notebook that demonstrates multi-agent AI workflows using
 **CrewAI** and **LangGraph** side by side. Drop in any PDF book and the system
 processes it chapter by chapter, then assembles a final Markdown document with a
 study guide, multiple-choice quiz, glossary, and confidence scoring.
@@ -80,18 +80,20 @@ winning framework's full output is used for Markdown assembly.
 
 ```
 CrewAI and LangGraph - PDF & md Book Explainer\
-    agentic_book_explainer.ipynb      <- the notebook (run this)
-    README.md                          <- this file
-    .gitignore                         <- excludes secrets, venv, logs, and generated files
-    .env                               <- your API keys (never committed)
-    .env.example                       <- template to copy from
-    requirements.txt                   <- all Python dependencies
+    agentic_book_explainer.ipynb           <- the notebook (run this)
+    agentic_book_explainer-full_run.ipynb  <- notebook exported with all cell outputs
+    agentic_book_explainer-full_run.html   <- standalone HTML export of the full run
+    README.md                              <- this file
+    .gitignore                             <- excludes secrets, venv, logs, and generated files
+    .env                                   <- your API keys (never committed)
+    .env.example                           <- template to copy from
+    requirements.txt                       <- all Python dependencies
     input\
         (add your own PDF here)
     output\
-        {book-name}\                   <- per-book intermediate outputs (gitignored)
+        {book-name}\                       <- generated study document per book
     logs\
-        {book-name}\                   <- per-book trace logs (gitignored)
+        {book-name}\                       <- per-book trace logs (gitignored)
     sample\
         input\
             a-practical-guide-to-building-agents.pdf   <- sample source document
