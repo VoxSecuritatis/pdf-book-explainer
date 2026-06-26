@@ -329,7 +329,6 @@ Chapter 2 explains that building agents is beneficial when traditional rule-base
 
 #### Study Notes
 
-```markdown
 # Study Notes: Chapter 2 – When Should You Build an Agent?
 
 ---
@@ -378,9 +377,6 @@ Chapter 2 explains that building agents is beneficial when traditional rule-base
 ## Summary
 
 Building an agent is justified when your workflow involves complex decision-making, hard-to-maintain rules, or heavy use of unstructured data. Agents bring nuanced reasoning to situations where traditional automation hits limits. Always validate your use case against these criteria before investing in agent development to ensure the solution fits the problem.
-
----
-```
 
 ---
 
@@ -1139,7 +1135,6 @@ Agents represent an advanced stage in workflow automation, capable of handling c
 
 #### Study Notes
 
-```markdown
 # Study Notes: Chapter 5 - Conclusion
 
 ---
@@ -1239,7 +1234,6 @@ Agents enable intelligent, adaptable automation of entire workflows by combining
 ---
 
 *End of Chapter 5 Study Notes*
-```
 
 ---
 
