@@ -111,7 +111,7 @@ CrewAI and LangGraph - PDF & md Book Explainer\
 git clone https://github.com/VoxSecuritatis/pdf-book-explainer.git
 cd "pdf-book-explainer"
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+
 ```
 
 ### 2. Install dependencies
