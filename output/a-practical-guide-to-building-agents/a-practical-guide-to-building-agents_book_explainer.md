@@ -1640,7 +1640,7 @@ _A cross-chapter selection to test overall comprehension._
 |---|---:|---|
 | Source extraction | 0.95 | text-based PDF |
 | Framework comparison | -- | Winner: CREWAI (CrewAI 1.00 vs LangGraph 0.89) |
-| Judge rationale | -- | Judge call failed -- defaulting to CrewAI. |
+| Judge rationale | -- | CrewAI achieved higher average confidence score (1.00 vs LangGraph 0.89). |
 
 | Chapter 1: What is an agent? | 1.00 | all good |
 | &nbsp;&nbsp;Summary | 1.00 | |

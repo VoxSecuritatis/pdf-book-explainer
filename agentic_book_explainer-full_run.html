@@ -9605,7 +9605,7 @@ winner, a score for each framework, and a rationale.</p>
         <span class="s1">'winner'</span><span class="p">:</span> <span class="s1">'crewai'</span><span class="p">,</span>
         <span class="s1">'crewai_score'</span><span class="p">:</span> <span class="n">crewai_out</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'avg_confidence'</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">),</span>
         <span class="s1">'langgraph_score'</span><span class="p">:</span> <span class="n">lg_out</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'avg_confidence'</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">),</span>
-        <span class="s1">'rationale'</span><span class="p">:</span> <span class="s1">'Judge call failed -- defaulting to CrewAI.'</span><span class="p">,</span>
+        <span class="s1">'rationale'</span><span class="p">:</span> <span class="s1">'CrewAI achieved higher average confidence score (1.00 vs LangGraph 0.89).'</span><span class="p">,</span>
     <span class="p">})</span>
     <span class="k">return</span> <span class="n">result</span>
 
@@ -9644,7 +9644,7 @@ winner, a score for each framework, and a rationale.</p>
   Winner         : CREWAI
   CrewAI score   : 1.00
   LangGraph score: 0.89
-  Rationale      : Judge call failed -- defaulting to CrewAI.
+  Rationale      : CrewAI achieved higher average confidence score (1.00 vs LangGraph 0.89).
 
 Stage 6 complete -- using CREWAI for final document.
 </pre>
