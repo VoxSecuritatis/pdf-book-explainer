@@ -21,10 +21,15 @@ logs/input_book/
 output/holding/
 output/input_book/
 
+# documentation folder (local reference only, not for public repo)
+documentation/
+
 # user-supplied source documents (add your own; do not commit)
 input/*.pdf
 input/*.md
 input/holding/
+# allow the sample PDF
+!input/a-practical-guide-to-building-agents.pdf
 
 # jupyter checkpoints
 .ipynb_checkpoints/
