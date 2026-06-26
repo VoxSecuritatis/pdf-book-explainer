@@ -28,8 +28,9 @@ documentation/
 input/*.pdf
 input/*.md
 input/holding/
-# allow the sample PDF
-!input/a-practical-guide-to-building-agents.pdf
+
+# powershell activation helper (machine-specific)
+activate.ps1
 
 # jupyter checkpoints
 .ipynb_checkpoints/

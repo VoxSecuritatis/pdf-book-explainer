@@ -69,19 +69,23 @@ The winning framework's full batch output is used for all downstream steps.
 
 ```
 CrewAI and LangGraph - PDF & md Book Explainer\
-    agentic_book_explainer_v2.ipynb   <- the notebook (run this)
+    agentic_book_explainer.ipynb      <- the notebook (run this)
     README.md                          <- this file
     .gitignore                         <- excludes secrets, venv, logs, and generated files
     .env                               <- your API keys (never committed)
     .env.example                       <- template to copy from
     requirements.txt                   <- all Python dependencies
     input\
-        a-practical-guide-to-building-agents.pdf   <- sample source document
         (add your own PDF or Markdown file here)
     output\
         {book-name}\                   <- per-book intermediate outputs (gitignored)
     logs\
         {book-name}\                   <- per-book trace logs (gitignored)
+    sample\
+        input\
+            a-practical-guide-to-building-agents.pdf   <- sample source document
+        output\
+            a-practical-guide-to-building-agents\      <- sample run output
 ```
 
 ---
@@ -119,7 +123,7 @@ automatically and shows a file picker -- no need to edit any code.
 
 ### 5. Run the notebook
 
-Open `agentic_book_explainer_v2.ipynb` in VS Code and run all cells top to bottom.
+Open `agentic_book_explainer.ipynb` in VS Code and run all cells top to bottom.
 The final document is saved to `output\{book-name}\{book-name}_book_explainer.md`.
 
 ---
