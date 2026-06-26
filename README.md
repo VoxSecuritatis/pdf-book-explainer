@@ -4,6 +4,14 @@ Published:  2026-06-26 | Updated: 2026-06-26
 
 ---
 
+| File | Link |
+|---|---|
+| Jupyter Notebook (full run) | [Open notebook](https://github.com/VoxSecuritatis/pdf-book-explainer/blob/master/agentic_book_explainer-full_run.ipynb) |
+| Source (Input) PDF file | [Open PDF](https://github.com/VoxSecuritatis/pdf-book-explainer/blob/master/sample/input/a-practical-guide-to-building-agents.pdf) |
+| Generated (Output) markdown summary/explainer | [Open markdown explainer](https://github.com/VoxSecuritatis/pdf-book-explainer/blob/master/sample/output/a-practical-guide-to-building-agents/a-practical-guide-to-building-agents_book_explainer.md) |
+
+---
+
 A Jupyter notebook that demonstrates multi-agent AI workflows using
 **CrewAI** and **LangGraph** side by side. Drop in any PDF book and the system
 processes it chapter by chapter, then assembles a final Markdown document with a
