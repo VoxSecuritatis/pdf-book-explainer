@@ -15,6 +15,9 @@ CLAUDE.md
 # auto-generated trace logs
 **/*.json
 
+# root holding directory (scratch/staging area, not for public repo)
+holding/
+
 # per-book intermediate working directories
 logs/holding/
 logs/input_book/
