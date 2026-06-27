@@ -1,6 +1,6 @@
 # Agentic Book Explainer
 Directed by Brock Frary using Claude Code<p>
-Published:  2026-06-26 | Updated: 2026-06-26
+Published:  2026-06-26 | Updated: 2026-06-27
 
 ---
 
