@@ -94,7 +94,6 @@ winning framework's full output is used for Markdown assembly.
 CrewAI and LangGraph - PDF & md Book Explainer\
     agentic_book_explainer.ipynb           <- the notebook (run this)
     agentic_book_explainer-full_run.ipynb  <- notebook exported with all cell outputs
-    agentic_book_explainer-full_run.html   <- standalone HTML export of the full run
     README.md                              <- this file
     .gitignore                             <- excludes secrets, venv, logs, and generated files
     .env                                   <- your API keys (never committed)
